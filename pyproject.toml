@@ -1,0 +1,23 @@
+[project]
+name = "simple-react-agent"
+version = "0.1.0"
+description = "Simple ReAct Agent: Reason and Act Agent using OpenAI's GPT models."
+keywords = ["AI", "Agent", "ReAct", "OpenAI", "GPT"]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.1.0",
+    "python-dotenv>=1.1.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/falkenslab/simple-react-agent"
+"Repository" = "https://github.com/falkenslab/simple-react-agent"
+"Documentation" = "https://github.com/falkenslab/simple-react-agent"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+react = "react.__main__:main"
