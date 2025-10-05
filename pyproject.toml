@@ -1,7 +1,7 @@
 [project]
 name = "simple-react-agent"
 version = "0.1.0"
-description = "Simple ReAct Agent: Reason and Act Agent using OpenAI's GPT models."
+description = "Agente de Razonamiento y Acción (ReAct) usando modelos GPT de OpenAI"
 keywords = ["AI", "Agent", "ReAct", "OpenAI", "GPT"]
 readme = "README.md"
 requires-python = ">=3.12"
