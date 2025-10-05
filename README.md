@@ -3,7 +3,7 @@ Simple ReAct Agent
 
 Descripción
 -----------
-- Agente minimalista que implementa el patrón ReAct (Reason + Act) sobre modelos de OpenAI.
+- Agente minimalista que implementa el patrón [ReAct](https://arxiv.org/pdf/2210.03629) (Reason + Act) sobre modelos de OpenAI.
 - Usa la API de Chat Completions para razonar en bucle y ejecutar acciones disponibles.
 - Incluye dos acciones de ejemplo: `calculate` (evalúa expresiones aritméticas) y `average_dog_weight` (devuelve el peso medio aproximado de una raza).
 
